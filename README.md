@@ -20,11 +20,11 @@
 
 <p><strong>Analista de TI na EMPRAL</strong> · Experiência anterior na <strong>Hyundai Motor Brasil</strong></p>
 
-Desenvolvo **ERP, APIs e automações em Python**, com **MySQL e integrações entre sistemas**. Por hobby, desenvolvo **scripts, mods e servidores de jogos** — **Minecraft Java & Bedrock, GTA RP e Roblox**.
+Desenvolvo o **ERP EMPRAL em Python**, da interface e das regras de negócio às **APIs, banco de dados e integrações**. Por hobby, já construí **servidores GTA RP do zero** e desenvolvo scripts para jogos. Meu foco atual inclui **Minecraft Java & Bedrock, GTA RP e Roblox**.
 
 <p><img src="./assets/icons/python.svg" width="40" height="40" alt="Python" title="Python"> <img src="./assets/icons/java.svg" width="40" height="40" alt="Java" title="Java"> <img src="./assets/icons/lua.svg" width="40" height="40" alt="Lua" title="Lua"> <img src="./assets/icons/js.svg" width="40" height="40" alt="JavaScript" title="JavaScript"> <img src="./assets/icons/ts.svg" width="40" height="40" alt="TypeScript" title="TypeScript"> <img src="./assets/icons/cs.svg" width="40" height="40" alt="C#" title="C#"></p>
 
-<p><a href="#jogos">Minecraft · GTA RP · Roblox</a> &nbsp; / &nbsp; <a href="#erp">ERP</a> &nbsp; / &nbsp; <a href="#experiencia">Trajetória</a> &nbsp; / &nbsp; <a href="#stack">Stack</a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/brian-victor20/">LinkedIn</a> &nbsp; / &nbsp; <a href="./README.en.md">English</a></p>
+<p><a href="#erp">ERP EMPRAL</a> &nbsp; / &nbsp; <a href="#jogos">Minecraft · GTA RP · Roblox</a> &nbsp; / &nbsp; <a href="#experiencia">Trajetória</a> &nbsp; / &nbsp; <a href="#stack">Stack</a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/brian-victor20/">LinkedIn</a> &nbsp; / &nbsp; <a href="./README.en.md">English</a></p>
 
 </div>
 
@@ -38,51 +38,60 @@ Desenvolvo **ERP, APIs e automações em Python**, com **MySQL e integrações e
 
 ---
 
-<a id="jogos"></a>
-
-## Minecraft, GTA RP & Roblox
-
-**Scripts · mods · interfaces · criação e personalização de servidores**
-
-### Minecraft Java & Bedrock
-
-**Foco atual para novos projetos e serviços extras.** Quero ampliar essa frente com criação, configuração e personalização de servidores nas duas edições.
-
-### GTA RP
-
-Já construí **servidores de RP do zero** e muitos scripts por hobby, incluindo interfaces e personalização de funcionalidades. Também está no meu foco para novos projetos extras.
-
-### Roblox
-
-Também faz parte da minha frente de hobby com jogos: **scripts e funcionalidades para projetos pessoais**.
-
-**`Java` `Lua` `JavaScript` `TypeScript` `HTML / CSS`**
-
----
-
 <a id="erp"></a>
 
-## ERP, APIs & automação / trabalho
+## ERP EMPRAL / gestão e engenharia
 
-Desenvolvo o **EMPRAL**, um ERP que conecta **gestão, engenharia e documentos**. O trabalho vai das interfaces e regras de negócio às **APIs com FastAPI, consultas MySQL, automação de relatórios e integrações desktop**, com evolução de um legado **Delphi**.
+Meu principal projeto profissional: um **ERP desktop em Python**, com módulos de gestão, documentos e engenharia. Trabalho na evolução do legado **Delphi**, nas regras de negócio e nas integrações que conectam o sistema à rotina da empresa.
 
-Também crio rotinas de cálculo e geração de documentos, além de integrações com ferramentas de escritório e CAD/Inventor.
+### Por dentro do desenvolvimento
 
-**`Python` `Tkinter / ttkbootstrap` `MySQL` `Delphi` `FastAPI`**
+| Frente | O que implementei |
+| :--- | :--- |
+| **API e acesso** | Serviços **FastAPI** separados do desktop, contratos **Pydantic**, autenticação por token e validação de permissões. |
+| **Dados e recuperação** | **MySQL** e consultas parametrizadas. Na importação de e-mails: transações, prevenção de duplicatas e recuperação após falhas. |
+| **Integrações e automação** | Integrações com **Outlook, AutoCAD e Inventor** por COM; rotinas de cálculo e geração de documentos e relatórios. |
+| **Testes e distribuição** | Testes de regressão com **pytest**, comparação com regras do legado Delphi e empacotamento Windows com **PyInstaller**. |
+
+**`Python` `FastAPI` `Pydantic` `MySQL` `COM` `pytest` `PyInstaller`**
 
 <details>
-<summary><strong>Conhecer os módulos e as integrações do ERP</strong></summary>
+<summary><strong>Módulos, legado e validação das integrações</strong></summary>
 
-| Área | O que desenvolvo |
+| Área | Escopo do sistema |
 | :--- | :--- |
 | Gestão | Clientes, orçamentos, ordens de serviço e apontamento de horas. |
 | Financeiro | Despesas, viagens, reembolsos e relatórios de caixa. |
 | Documentos | Pastas digitais, desenhos, revisões e PDFs. |
 | Engenharia | Cálculos e relatórios para moendas, mesas alimentadoras e transportadores. |
 
-Também trabalho em integrações com Outlook e ferramentas CAD/Inventor, com desenvolvimento e validação por recurso. Algumas etapas dependem do ambiente Windows de destino.
+No desktop, uso **Tkinter/ttkbootstrap**. A evolução em Python preserva regras do sistema Delphi, com testes de paridade e casos de fronteira. As rotinas de cálculo ficam separadas da interface, e os serviços HTTP atendem recursos específicos do ERP.
+
+As integrações são desenvolvidas e validadas por recurso; Outlook, AutoCAD e Inventor também exigem verificação no ambiente Windows de destino. O código e os dados corporativos permanecem privados.
 
 </details>
+
+---
+
+<a id="jogos"></a>
+
+## Minecraft, GTA RP & Roblox
+
+Minha experiência com jogos inclui **servidores GTA RP construídos do zero**, scripts próprios e interfaces. É uma frente que desenvolvo por hobby e para projetos extras, com foco atual em **Minecraft Java & Bedrock**.
+
+| Plataforma | Minha atuação |
+| :--- | :--- |
+| **Minecraft Java & Bedrock** | Foco dos novos projetos: criação, configuração e personalização de servidores para as duas edições. |
+| **GTA RP** | Experiência com servidores do zero, scripts, interfaces e funcionalidades personalizadas. |
+| **Roblox** | Scripts e funcionalidades em projetos pessoais. |
+
+**Como penso um projeto de servidor:** entender as regras do jogo, organizar a lógica dos scripts, cuidar dos dados e das integrações e deixar espaço para manutenção. É a mesma atenção que dedico ao desenvolvimento do ERP.
+
+**`Java` `Lua` `JavaScript` `TypeScript` `HTML / CSS`**
+
+Tem um projeto de **Minecraft ou GTA RP**? [Vamos conversar pelo LinkedIn](https://www.linkedin.com/in/brian-victor20/).
+
+---
 
 <a id="experiencia"></a>
 
@@ -117,17 +126,17 @@ Automação de processos com **Power Automate** e dashboards de controle e custo
 
 ## Stack / onde uso
 
-### Scripts e interfaces para jogos
-
-<p><img src="./assets/icons/java.svg" width="40" height="40" alt="Java"> <img src="./assets/icons/lua.svg" width="40" height="40" alt="Lua"> <img src="./assets/icons/js.svg" width="40" height="40" alt="JavaScript"> <img src="./assets/icons/ts.svg" width="40" height="40" alt="TypeScript"> <img src="./assets/icons/html.svg" width="40" height="40" alt="HTML"> <img src="./assets/icons/css.svg" width="40" height="40" alt="CSS"></p>
-
-Lógica de scripts, funcionalidades e interfaces nos projetos ligados a jogos.
-
 ### ERP, dados e ferramentas desktop
 
 <p><img src="./assets/icons/python.svg" width="42" height="42" alt="Python"> <img src="./assets/icons/mysql.svg" width="42" height="42" alt="MySQL"> <img src="./assets/icons/fastapi.svg" width="42" height="42" alt="FastAPI"> <img src="./assets/icons/cs.svg" width="42" height="42" alt="C#"></p>
 
 Python, Tkinter/ttkbootstrap e MySQL no ERP; FastAPI em serviços e integrações; C# em ferramentas e complementos desktop.
+
+### Scripts e interfaces para jogos
+
+<p><img src="./assets/icons/java.svg" width="40" height="40" alt="Java"> <img src="./assets/icons/lua.svg" width="40" height="40" alt="Lua"> <img src="./assets/icons/js.svg" width="40" height="40" alt="JavaScript"> <img src="./assets/icons/ts.svg" width="40" height="40" alt="TypeScript"> <img src="./assets/icons/html.svg" width="40" height="40" alt="HTML"> <img src="./assets/icons/css.svg" width="40" height="40" alt="CSS"></p>
+
+Lógica de scripts, funcionalidades e interfaces nos projetos ligados a jogos.
 
 ### Automação & análise de dados
 
