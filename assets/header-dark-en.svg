@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="118" viewBox="0 0 760 118" role="img" aria-labelledby="title desc">
+<title id="title">Brian Victor — ERP, APIs and automation · Games</title>
+<desc id="desc">Brian Victor stays static over an animated blue, cyan and teal background with amber accents. A static version is used for reduced motion.</desc>
+<defs>
+  <clipPath id="frame"><rect x=".5" y=".5" width="759" height="117" rx="4"/></clipPath>
+  <linearGradient id="base" x2="1" y2=".25"><stop stop-color="#0c2139"/><stop offset=".48" stop-color="#102536"/><stop offset="1" stop-color="#073642"/></linearGradient>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#225ae4"/><stop offset=".6" stop-color="#167ebf"/><stop offset="1" stop-color="#18c0d3"/></linearGradient>
+  <linearGradient id="teal" x1="1" y1="0" x2="0" y2="1"><stop stop-color="#20bfa0"/><stop offset=".55" stop-color="#148c9f"/><stop offset="1" stop-color="#1855a6"/></linearGradient>
+  <linearGradient id="readability"><stop stop-color="#071b2a" stop-opacity="0"/><stop offset=".36" stop-color="#071b2a" stop-opacity=".22"/><stop offset=".62" stop-color="#071b2a" stop-opacity=".42"/><stop offset="1" stop-color="#071b2a" stop-opacity="0"/></linearGradient>
+</defs>
+<style>
+  .background-blue{animation:blue-shift 10s ease-in-out infinite alternate}
+  .background-teal{animation:teal-shift 13s ease-in-out infinite alternate}
+  .background-amber{animation:amber-shift 9s ease-in-out infinite alternate}
+  @keyframes blue-shift{from{transform:translate(0,0)}to{transform:translate(64.6px,-7px)}}
+  @keyframes teal-shift{from{transform:translate(0,0)}to{transform:translate(-68.4px,5px)}}
+  @keyframes amber-shift{from{transform:translateX(0)}to{transform:translateX(-41.8px)}}
+  @media(prefers-reduced-motion:reduce){.background-blue,.background-teal,.background-amber{animation:none!important}}
+</style>
+<rect width="760" height="118" fill="#0d1117"/>
+<g id="animated-background" clip-path="url(#frame)">
+  <rect width="760" height="118" fill="url(#base)"/>
+  <g class="background-blue" opacity=".72">
+    <path d="M-130 -24H304.0L136.8 142H-130Z" fill="url(#blue)"/>
+    <path d="M304.0 -24L136.8 142" fill="none" stroke="#72d8f4" stroke-width="1" opacity=".55"/>
+    <path d="M228.0 -24L60.8 142" fill="none" stroke="#89c6fa" stroke-width=".65" opacity=".20"/>
+  </g>
+  <g class="background-teal" opacity=".67">
+    <path d="M562.4 -24H890V142H402.8Z" fill="url(#teal)"/>
+    <path d="M562.4 -24L402.8 142" fill="none" stroke="#70e3ce" stroke-width="1" opacity=".43"/>
+  </g>
+  <g class="background-amber">
+    <path d="M691.6 -24H722.0L554.8 142H524.4Z" fill="#efaa59" opacity=".13"/>
+    <path d="M691.6 -24L524.4 142" fill="none" stroke="#efbd79" stroke-width="1.1" opacity=".58"/>
+  </g>
+  <rect width="760" height="118" fill="url(#readability)"/>
+</g>
+<rect x=".5" y=".5" width="759" height="117" rx="4" fill="none" stroke="#294454" stroke-width=".8"/>
+<text id="display-name" x="380.0" y="47" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="43" font-weight="700" letter-spacing="-.8" fill="#f5f9fc">Brian Victor</text>
+<text id="role-line" x="380.0" y="76" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="500" fill="#d4e2ee">ERP, APIs and automation · Games</text>
+</svg>

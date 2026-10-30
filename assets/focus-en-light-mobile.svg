@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="368" viewBox="0 0 360 368" role="img" aria-labelledby="title desc">
+<title id="title">Brian Victor&#x27;s two development areas</title>
+<desc id="desc">ERP, APIs and automation work with Python, FastAPI, MySQL and integrations; scripts, mods and games as a hobby, with Minecraft Java and Bedrock, GTA RP and Roblox.</desc>
+<rect width="360" height="368" fill="#ffffff"/>
+<rect x="8" y="8" width="344" height="170" rx="6" fill="#ffffff" stroke="#d1d9e0"/>
+<text x="26" y="37" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="600" fill="#1a7f37" letter-spacing="1.1">HOBBY</text>
+<text x="26" y="72" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#1f2328">Scripts, mods &amp; games</text>
+<text x="26" y="103" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" fill="#59636e">Minecraft Java &amp; Bedrock</text>
+<text x="26" y="128" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" fill="#59636e">GTA RP · Roblox</text>
+<path d="M26 143H334" stroke="#e7edf3"/>
+<text x="26" y="165" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="500" fill="#1a7f37">Scripts · mods · servers</text>
+<rect x="8" y="190" width="344" height="170" rx="6" fill="#ffffff" stroke="#d1d9e0"/>
+<text x="26" y="219" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="600" fill="#0969da" letter-spacing="1.1">IT SINCE 2022</text>
+<text x="26" y="254" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#1f2328">ERP, APIs &amp; automation</text>
+<text x="26" y="285" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" fill="#59636e">Integrations · databases</text>
+<text x="26" y="310" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" fill="#59636e">Automation · engineering</text>
+<path d="M26 325H334" stroke="#e7edf3"/>
+<text x="26" y="347" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="500" fill="#0969da">Python · FastAPI · MySQL</text>
+</svg>
