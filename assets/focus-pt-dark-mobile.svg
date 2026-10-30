@@ -3,17 +3,17 @@
 <desc id="desc">ERP, APIs e automação no trabalho, com Python, FastAPI, MySQL e integrações; scripts, mods e jogos por hobby, com Minecraft Java e Bedrock, GTA RP e Roblox.</desc>
 <rect width="360" height="368" fill="#0d1117"/>
 <rect x="8" y="8" width="344" height="170" rx="6" fill="#0d1117" stroke="#30363d"/>
-<text x="26" y="37" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="600" fill="#7ee2a8" letter-spacing="1.1">HOBBY</text>
-<text x="26" y="72" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#e6edf3">Scripts, mods &amp; jogos</text>
-<text x="26" y="103" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" fill="#a4afbd">Minecraft Java &amp; Bedrock</text>
-<text x="26" y="128" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" fill="#a4afbd">GTA RP · Roblox</text>
+<text x="26" y="37" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#79b8ff" letter-spacing="1.1">PROJETO PRINCIPAL</text>
+<text x="26" y="72" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#e6edf3">ERP EMPRAL</text>
+<text x="26" y="103" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" fill="#a4afbd">APIs · contratos · permissões</text>
+<text x="26" y="128" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" fill="#a4afbd">Transações · integrações COM</text>
 <path d="M26 143H334" stroke="#212a37"/>
-<text x="26" y="165" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="500" fill="#7ee2a8">Scripts · mods · servidores</text>
+<text x="26" y="165" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="500" fill="#79b8ff">Python · FastAPI · MySQL</text>
 <rect x="8" y="190" width="344" height="170" rx="6" fill="#0d1117" stroke="#30363d"/>
-<text x="26" y="219" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="600" fill="#79b8ff" letter-spacing="1.1">TI DESDE 2022</text>
-<text x="26" y="254" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#e6edf3">ERP, APIs &amp; automação</text>
-<text x="26" y="285" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" fill="#a4afbd">Integrações · banco de dados</text>
-<text x="26" y="310" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" fill="#a4afbd">Automação · engenharia</text>
+<text x="26" y="219" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#7ee2a8" letter-spacing="1.1">PROJETOS PESSOAIS</text>
+<text x="26" y="254" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#e6edf3">Scripts &amp; servidores</text>
+<text x="26" y="285" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" fill="#a4afbd">Minecraft Java &amp; Bedrock</text>
+<text x="26" y="310" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" fill="#a4afbd">GTA RP · Roblox</text>
 <path d="M26 325H334" stroke="#212a37"/>
-<text x="26" y="347" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="500" fill="#79b8ff">Python · FastAPI · MySQL</text>
+<text x="26" y="347" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="500" fill="#7ee2a8">Java · Lua · JavaScript · TypeScript</text>
 </svg>

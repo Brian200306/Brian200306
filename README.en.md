@@ -20,11 +20,11 @@
 
 <p><strong>IT Analyst at EMPRAL</strong> · Previously at <strong>Hyundai Motor Brasil</strong></p>
 
-I develop **ERP software, APIs and automation in Python**, using **MySQL and system integrations**. As a hobby, I develop **scripts, mods and game servers** — **Minecraft Java & Bedrock, GTA RP and Roblox**.
+I develop the **EMPRAL ERP in Python**, from interfaces and business rules to **APIs, databases and integrations**. As a hobby, I have built **GTA RP servers from scratch** and develop game scripts. My current focus includes **Minecraft Java & Bedrock, GTA RP and Roblox**.
 
 <p><img src="./assets/icons/python.svg" width="40" height="40" alt="Python" title="Python"> <img src="./assets/icons/java.svg" width="40" height="40" alt="Java" title="Java"> <img src="./assets/icons/lua.svg" width="40" height="40" alt="Lua" title="Lua"> <img src="./assets/icons/js.svg" width="40" height="40" alt="JavaScript" title="JavaScript"> <img src="./assets/icons/ts.svg" width="40" height="40" alt="TypeScript" title="TypeScript"> <img src="./assets/icons/cs.svg" width="40" height="40" alt="C#" title="C#"></p>
 
-<p><a href="#games">Minecraft · GTA RP · Roblox</a> &nbsp; / &nbsp; <a href="#erp">ERP</a> &nbsp; / &nbsp; <a href="#experience">Experience</a> &nbsp; / &nbsp; <a href="#stack">Stack</a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/brian-victor20/">LinkedIn</a> &nbsp; / &nbsp; <a href="./README.md">Português</a></p>
+<p><a href="#erp">ERP EMPRAL</a> &nbsp; / &nbsp; <a href="#games">Minecraft · GTA RP · Roblox</a> &nbsp; / &nbsp; <a href="#experience">Experience</a> &nbsp; / &nbsp; <a href="#stack">Stack</a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/brian-victor20/">LinkedIn</a> &nbsp; / &nbsp; <a href="./README.md">Português</a></p>
 
 </div>
 
@@ -38,51 +38,60 @@ I develop **ERP software, APIs and automation in Python**, using **MySQL and sys
 
 ---
 
-<a id="games"></a>
-
-## Minecraft, GTA RP & Roblox
-
-**Scripts · mods · interfaces · server setup and customization**
-
-### Minecraft Java & Bedrock
-
-**Current focus for new projects and side work.** I want to grow this area through server setup and customization for both editions.
-
-### GTA RP
-
-I've built **RP servers from scratch** and many scripts as a hobby, including interfaces and custom features. This is also a focus for new side projects.
-
-### Roblox
-
-Also part of my gaming hobby: **scripts and features for personal projects**.
-
-**`Java` `Lua` `JavaScript` `TypeScript` `HTML / CSS`**
-
----
-
 <a id="erp"></a>
 
-## ERP, APIs & automation / work
+## EMPRAL ERP / business and engineering
 
-I develop **EMPRAL**, an ERP connecting **management, engineering and documents**. My work spans interfaces and business logic, **APIs built with FastAPI, MySQL queries, report automation and desktop integrations**, while evolving a **Delphi** legacy.
+My main professional project: a **Python desktop ERP** with business, document and engineering modules. I work on evolving the **Delphi** legacy, implementing business rules and building integrations for the company's day-to-day operations.
 
-I also develop calculation and document-generation routines, alongside integrations with office tools and CAD/Inventor.
+### Inside the implementation
 
-**`Python` `Tkinter / ttkbootstrap` `MySQL` `Delphi` `FastAPI`**
+| Area | What I implemented |
+| :--- | :--- |
+| **API and access** | **FastAPI** services separate from the desktop, **Pydantic** contracts, token authentication and permission checks. |
+| **Data and recovery** | **MySQL** and parameterized queries. Email imports use transactions, duplicate prevention and recovery after failures. |
+| **Integrations and automation** | **Outlook, AutoCAD and Inventor** integrations through COM; calculation routines and document and report generation. |
+| **Testing and distribution** | Regression tests with **pytest**, checks against legacy Delphi rules and Windows packaging with **PyInstaller**. |
+
+**`Python` `FastAPI` `Pydantic` `MySQL` `COM` `pytest` `PyInstaller`**
 
 <details>
-<summary><strong>ERP modules and integrations</strong></summary>
+<summary><strong>Modules, legacy code and integration validation</strong></summary>
 
-| Area | What I develop |
+| Area | System scope |
 | :--- | :--- |
 | Management | Customers, quotations, work orders and time tracking. |
 | Finance | Expenses, travel, reimbursements and cash reports. |
 | Documents | Digital folders, drawings, revisions and PDFs. |
 | Engineering | Calculations and reports for mills, feeding tables and conveyors. |
 
-I also work on Outlook and CAD/Inventor integrations, under development and feature-specific validation. Some steps depend on the target Windows environment.
+The desktop uses **Tkinter/ttkbootstrap**. Development in Python preserves rules from the Delphi system through parity and boundary tests. Calculation routines are separate from the interface, and HTTP services support specific ERP features.
+
+Integrations are developed and validated per feature; Outlook, AutoCAD and Inventor also require checks in the target Windows environment. Corporate source code and data remain private.
 
 </details>
+
+---
+
+<a id="games"></a>
+
+## Minecraft, GTA RP & Roblox
+
+My game development experience includes **GTA RP servers built from scratch**, custom scripts and interfaces. I pursue this as a hobby and through side projects, with a current focus on **Minecraft Java & Bedrock**.
+
+| Platform | My work |
+| :--- | :--- |
+| **Minecraft Java & Bedrock** | Focus of new projects: server setup, configuration and customization for both editions. |
+| **GTA RP** | Experience building servers from scratch, scripts, interfaces and custom features. |
+| **Roblox** | Scripts and features in personal projects. |
+
+**How I approach a server project:** understand the game rules, organize script logic, consider data and integrations, and make room for maintenance. I bring the same care to my ERP work.
+
+**`Java` `Lua` `JavaScript` `TypeScript` `HTML / CSS`**
+
+Have a **Minecraft or GTA RP** project in mind? [Let's talk on LinkedIn](https://www.linkedin.com/in/brian-victor20/).
+
+---
 
 <a id="experience"></a>
 
@@ -117,17 +126,17 @@ Process automation with **Power Automate** and control and cost dashboards in **
 
 ## Stack / where I use it
 
-### Game scripts and interfaces
-
-<p><img src="./assets/icons/java.svg" width="40" height="40" alt="Java"> <img src="./assets/icons/lua.svg" width="40" height="40" alt="Lua"> <img src="./assets/icons/js.svg" width="40" height="40" alt="JavaScript"> <img src="./assets/icons/ts.svg" width="40" height="40" alt="TypeScript"> <img src="./assets/icons/html.svg" width="40" height="40" alt="HTML"> <img src="./assets/icons/css.svg" width="40" height="40" alt="CSS"></p>
-
-Script logic, features and interfaces in game-related projects.
-
 ### ERP, data and desktop tools
 
 <p><img src="./assets/icons/python.svg" width="42" height="42" alt="Python"> <img src="./assets/icons/mysql.svg" width="42" height="42" alt="MySQL"> <img src="./assets/icons/fastapi.svg" width="42" height="42" alt="FastAPI"> <img src="./assets/icons/cs.svg" width="42" height="42" alt="C#"></p>
 
 Python, Tkinter/ttkbootstrap and MySQL in the ERP; FastAPI for services and integrations; C# in desktop tools and add-ins.
+
+### Game scripts and interfaces
+
+<p><img src="./assets/icons/java.svg" width="40" height="40" alt="Java"> <img src="./assets/icons/lua.svg" width="40" height="40" alt="Lua"> <img src="./assets/icons/js.svg" width="40" height="40" alt="JavaScript"> <img src="./assets/icons/ts.svg" width="40" height="40" alt="TypeScript"> <img src="./assets/icons/html.svg" width="40" height="40" alt="HTML"> <img src="./assets/icons/css.svg" width="40" height="40" alt="CSS"></p>
+
+Script logic, features and interfaces in game-related projects.
 
 ### Automation & data analysis
 
